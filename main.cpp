@@ -13,7 +13,7 @@
 int main() {
 
     //----------------------------------------------------------------work done by jayanth--------------------------------------------------------------------
-    std::string folderName = "ParkingLot_dataset";
+    std::string folderName = "../ParkingLot_dataset";
     int sequenceNumber = 0;
 
 std::string imagePath = "../ParkingLot_dataset/sequence4/frames/2013-04-15_07_05_01.png";
@@ -79,7 +79,7 @@ std::string imagePath = "../ParkingLot_dataset/sequence4/frames/2013-04-15_07_05
     //----------------------------------------------------------------------------------------------------------------------------------------
 
 //{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{work done by christy}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
-vector<cv::Rect> bestPArkingSpaces = bounding_box_extract(folderName, sequenceNumber);
+vector<cv::Rect> bestParkingSpaces = bounding_box_extract(folderName, sequenceNumber);
 
 
 
